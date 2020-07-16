@@ -53,7 +53,6 @@
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptors>
                                 <descriptor>src/main/assembly/zip.xml</descriptor>
-                                <descriptor>src/main/assembly/tar.xml</descriptor>
                             </descriptors>
                         </configuration>
                     </execution>
