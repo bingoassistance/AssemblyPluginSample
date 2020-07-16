@@ -55,7 +55,7 @@
                                 <descriptor>src/main/assembly/zip.xml</descriptor>
                             </descriptors>
                         </configuration>
-                             <configuration>
+                        <configuration>
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptors>
                                 <descriptor>src/main/assembly/tar.xml</descriptor>
