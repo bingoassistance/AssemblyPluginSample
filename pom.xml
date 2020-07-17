@@ -60,6 +60,23 @@
             </plugin>
         </plugins>
     </build>
-
-
+         <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://34.222.78.12:8081/repository/1-sampletarzip-rel//</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://34.222.78.12:8081/repository/1-sampletarzip-snap//</url>
+        </snapshotRepository>
+    </distributionManagement>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+  	</dependency>
+  </dependencies>
 </project>
